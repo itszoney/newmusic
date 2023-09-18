@@ -6,7 +6,7 @@ if HEROKU:
     API_ID = int(environ["API_ID"])
     API_HASH = environ["API_HASH"]
     SUDO_CHAT_ID = environ["SUDO_CHAT_ID"]
-    SESSION_STRING = environ["SESSION_STRING"]
+#    SESSION_STRING = environ["SESSION_STRING"]
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
